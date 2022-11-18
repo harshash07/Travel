@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: poppins;
     box-sizing: border-box;
 }
+@font-face { font-family: poppins; 
+    src: url('Poppins/Poppins-Light.ttf') 
+} 
 .headleft{
 }
 .head{
@@ -66,9 +70,10 @@ a{
 .leftangle{
     background-color: #fff;
     position:absolute;
-    right: 40px;
+    right: 50px;
     bottom: 0px;
     font-size: 40px;
+    padding-left: 10px;
 }
 .part2 h1{
     text-align: center;
@@ -138,7 +143,7 @@ a{
     display: inline-block;
     background-color: purple;
     padding: 20px 40px;
-    margin: 40px 90px;
+    margin: 40px;
 }
 .icon1 p{
     color: #fff;
@@ -163,9 +168,13 @@ a{
     background-color: #000;
 }
 .part3right a{
+    margin-left: 30px;
     background-color: purple;
     color: #fff;
     padding: 10px 20px;
+}
+.part3right h2{
+    padding-left: 30px;
 }
 .part3right{
     background-color: rgba(184, 170, 170, 0.548);
@@ -199,9 +208,13 @@ a{
 .images {
    display: flex;
    justify-content: space-evenly;
-   height: 440px;
+   height: 480px;
+}
+.images1 img:hover{
+    transform: scale(2);
 }
 .images1{
+    margin: 30px;
     border: 2px solid #000;
     width: 390px;
 }
@@ -211,6 +224,7 @@ a{
 }
 .images1 img{
     width: 100%;
+    transition: all 1s ease;
 }
 .images1 p{
     text-align: center;
@@ -246,4 +260,49 @@ a{
 }
 .part5 a:hover{
     background-color: purple;
+}
+.end{
+    background: url(images/footer-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.foot1{
+    color: #fff;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.links i{
+    color: purple;
+    padding-right: 10px;
+}
+.foot2 h1{
+  color: #fff;
+}
+.foot2{
+    margin-left: 80px;
+    padding: 30px;
+}
+.links a{
+    color: #fff;
+}
+.foot3{
+    border-top: 4px solid #fff;
+    padding: 30px;
+    margin: 0 40px;
+}
+.foot3 h2{
+   color: #fff;
+   text-align: center;
+}
+span{
+    color: purple;
 }
