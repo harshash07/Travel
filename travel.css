@@ -179,7 +179,7 @@ a{
 .part3right{
     background-color: rgba(184, 170, 170, 0.548);
     padding: 20px;
-    margin: 40px 0;
+    margin: 19px 0;
 }
 .book{
   text-align: center;
@@ -208,7 +208,7 @@ a{
 .images {
    display: flex;
    justify-content: space-evenly;
-   height: 480px;
+   height: 520px;
 }
 .images1 img:hover{
     transform: scale(2);
