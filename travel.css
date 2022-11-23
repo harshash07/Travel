@@ -217,6 +217,7 @@ a{
     margin: 30px;
     border: 2px solid #000;
     width: 390px;
+    overflow: hidden;
 }
 .images1 h2{
     padding: 10px 30px;
@@ -278,11 +279,12 @@ a{
 .links{
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 20px;
 }
 .links i{
     color: purple;
     padding-right: 10px;
+    font-size: 20px;
 }
 .foot2 h1{
   color: #fff;
@@ -291,8 +293,14 @@ a{
     margin-left: 80px;
     padding: 30px;
 }
+.links a:hover{
+    transform: translateX(20px);
+}
 .links a{
     color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    transition: all .5s ease;
 }
 .foot3{
     border-top: 4px solid #fff;
